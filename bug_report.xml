@@ -1,1 +1,20 @@
-
+<Identifier>19</Identifier>
+<Summary>There is no logo on the welcome page if the user is an administrator</Summary>
+<Description>
+    <Detailed_info_on_the_defect>There is no logo on the welcome page if the user is an administrator</Detailed_info_on_the_defect>
+    <Actual_result>The logo is missing from the top left-hand corner of the page</Actual_result>
+    <Expected_result>The logo is displayed in the top left-hand corner of the page</Expected_result>
+    <Requirement>R245.3.23b</Requirement>
+</Description>
+<Steps_to_reproduce>
+    <Step_one>Open http://testapplication.com/admin/login/.</Step_one>
+    <Step_two>Authenticate with 'admin' login and 'password' password</Step_two>
+    <Defect>There is no logo in the top left-hand corner of the page (an empty space with the word 'logo' in its place)</Defect>
+</Steps_to_reproduce>
+<Reproducibility>Always</Reproducibility>
+<Severity>Medium</Severity>
+<Priority>Normal</Priority>
+<Symptom>Incorrect operation</Symptom>
+<Workaround>No</Workaround>
+<Comments>No</Comments>
+<Attachments>No</Attachments>
